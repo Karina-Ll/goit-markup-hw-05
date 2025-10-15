@@ -399,6 +399,15 @@ ul {
 
 .social-media-svg-footer-button {
     fill: #f4f4fd;
+    margin-left: 16px;
+}
+
+.button-footer {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* 2 section */
