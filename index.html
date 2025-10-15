@@ -435,21 +435,26 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="footer-second-div">
                 <p class="p-text-footer-social-media">Subscribe</p>
 
-                <div>
-                    <input type="email" name="footer-input" id="footer-input" class="footer-input" placeholder="E-mail">
-                    <button class="button">
+                <form class="footer-form">
+                    <label class="footer-label">
+                        <input type="email" name="footer-input" id="footer-input" class="footer-input" placeholder="E-mail">
+                    </label>
+                    
+                    <button class="button" type="submit">
                         Subscribe
-                        
+                        <svg width="24" height="24" class="social-media-svg-footer-button">
+                            <use href="./images/icons.svg#telegram"></use>
+                        </svg>
                     </button>
 
-                    <svg width="24" height="24" class="social-media-svg-footer-button">
-                        <use href="./images/icons.svg#telegram"></use>
-                    </svg>
-                </div>
+                    
+                </form>
+
             </div>
+
         </div>
     </footer>    
 
