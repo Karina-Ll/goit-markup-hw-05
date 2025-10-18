@@ -648,7 +648,7 @@ ul {
 }
 
 .modal-window-checkbox-input:checked+.modal-window-checkbox-label .modal-window-checkbox-label-span {
-    background-color: #4D5AE5;
+    background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
@@ -671,4 +671,5 @@ ul {
     background-color: #4D5AE5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 auto;
 }
