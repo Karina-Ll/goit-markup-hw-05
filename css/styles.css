@@ -647,7 +647,7 @@ ul {
     fill: transparent;
 }
 
-.modal-window-checkbox-input:checked + .modal-window-checkbox-label-span {
+.modal-window-checkbox-input:checked+.modal-window-checkbox-label .modal-window-checkbox-label-span {
     background-color: #4D5AE5;
     border: none;
     fill: #F4F4FD;
